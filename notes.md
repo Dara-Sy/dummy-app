@@ -15,10 +15,25 @@ In class Users Component, we have:
 
 This is props passed as children from the functional Component User
 
-const User = (props) => {
-  return(
+
     <div>
       {props.children}
     </div>
     );
-}
+
+In class App Component, we have:
+
+      <div className="App">
+        <Users title="Users List" />
+        <p>Hello!</p>
+      </div>
+
+This is props passed as a title from Users to App 
+
+      <div>
+        <h1>{this.props.title}</h1>
+        <User>John</User>
+        <User>Jill</User>
+        <User>Peter</User>
+        <p>text</p>
+      </div>
