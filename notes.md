@@ -13,13 +13,13 @@ In class Users Component, we have:
         <User>Jill</User>
         <User>Peter</User>
 
-This is props passed as children from the functional Component User
+This is props passed as children from the functional Component User:
 
 
-    <div>
-      {props.children}
-    </div>
-    );
+        <div>
+          {props.children}
+        </div>
+        );
 
 In class App Component, we have:
 
@@ -28,7 +28,7 @@ In class App Component, we have:
         <p>Hello!</p>
       </div>
 
-This is props passed as a title from Users to App 
+This is props passed as a title from Users to App: 
 
       <div>
         <h1>{this.props.title}</h1>
@@ -37,3 +37,20 @@ This is props passed as a title from Users to App
         <User>Peter</User>
         <p>text</p>
       </div>
+
+Imports:
+
+In Class Component you have to import { Component }
+In the Functional/ES6 Component you don't have to import { Component }
+No render() method is needed in Functional because it's only a part of Class 
+
+Passing Props: 
+In Class, taking props is automatically available 
+In ES6, you need to pass props as an argument (don't have to use this.props.whatever)
+
+When to use either Class or ES6?
+
+Recommended - Use ES6 whenever possible 
+But when maintaining State - Use Class 
+
+
