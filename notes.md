@@ -53,4 +53,6 @@ When to use either Class or ES6?
 Recommended - Use ES6 whenever possible 
 But when maintaining State - Use Class 
 
+A Container Component (usually Class) is the Top Component which encloses all other Components
+Also referred to as a Presentation Component
 
