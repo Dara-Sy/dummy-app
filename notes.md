@@ -14,3 +14,11 @@ In class Users Component, we have:
         <User>Peter</User>
 
 This is props passed as children from the functional Component User
+
+const User = (props) => {
+  return(
+    <div>
+      {props.children}
+    </div>
+    );
+}
