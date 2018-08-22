@@ -5,8 +5,11 @@ class Users extends Component {
   render() {
     return(
       <div>
-      <User />
-        text
+        <User>John</User>
+        <User>Jill</User>
+        <User>Peter</User>
+
+        <p>text</p>
       </div>
     )
   }

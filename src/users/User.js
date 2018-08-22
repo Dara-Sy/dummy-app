@@ -1,8 +1,10 @@
 import React from 'react';
 
-const User = () => {
+const User = (props) => {
   return(
-    <div>user</div>
+    <div>
+      {props.children}
+    </div>
     );
 }
 
