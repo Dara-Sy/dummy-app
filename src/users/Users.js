@@ -11,9 +11,21 @@ class Users extends Component {
     title: "Users List"
   };
 
+  youth = () => {
+    this.setState({
+      users: [
+        {name:"John", age:10},
+        {name:"Jill", age:20},
+        {name:"Peter", age:30}
+      ]
+    })
+  }
+
   render() {
     return(
       <div>
+        <button onClick={this.youth}>Make us 10 years younger</button>
+        <br />
         <h1>{this.props.title}</h1>
 
         <User age={this.state.users[0].age}>{this.state.users[0].name}</User>

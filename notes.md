@@ -63,6 +63,14 @@ Props - makes React Component dynamic from the outside
 
 You setState where you extend Component
 
+ <button onClick={this.functionName()}</button>
+
+The () on the function makes it execute right away
+
+When to use Arrow Functions? 
+
+On Users Component, cannot mutate state directly under arrow function
+Must use setState
 
 
 
