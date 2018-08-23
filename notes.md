@@ -56,3 +56,29 @@ But when maintaining State - Use Class
 A Container Component (usually Class) is the Top Component which encloses all other Components
 Also referred to as a Presentation Component
 
+State and Props:
+
+State - makes React Component dynamic from the inside
+Props - makes React Component dynamic from the outside 
+
+You setState where you extend Component
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
